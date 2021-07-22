@@ -14,3 +14,7 @@ DATABASES = {
         'PORT': '25060',
     }
 }
+
+INSTALLED_APPS += [
+    'storages'
+]
