@@ -2,7 +2,7 @@ from .base import *
 
 from .base import *
 
-ALLOWED_HOSTS = ['139.59.238.153']
+ALLOWED_HOSTS = ['139.59.238.153','api.lanka.institute']
 
 DATABASES = {
     'default': {
