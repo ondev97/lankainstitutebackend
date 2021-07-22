@@ -98,7 +98,7 @@ AUTH_USER_MODEL = 'account.User'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, '../../db.sqlite3'),
     }
 }
 
@@ -151,9 +151,9 @@ REST_AUTH_SERIALIZERS = {
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 
-STATIC_ROOT = os.path.join(BASE_DIR,'static/')
+STATIC_ROOT = os.path.join(BASE_DIR, '../../static/')
 
-MEDIA_ROOT = os.path.join(BASE_DIR,'static/images/')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'static/../../static/images/')
 
 
 #smtp configuration
